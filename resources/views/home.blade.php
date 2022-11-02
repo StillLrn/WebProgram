@@ -1,4 +1,4 @@
-{{-- permisi pak, tolong memakai /home pak untuk membuka websitenya, terima kasih --}}
+{{-- permisi pak, tolong memakai /home pak untuk membuka websitenya, terima kasih. Serta untuk menjalankannya harap menggunakan menuliskan "php artisan serve" terlebih dahulu di cmd --}}
 
 @extends('template')
 
