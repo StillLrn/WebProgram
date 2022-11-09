@@ -1,5 +1,6 @@
 <?php
 
+use App\Http\Controllers\websiteController;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -17,8 +18,4 @@ Route::get('/', function () {
     return view('home');
 });
 
-Route::get('/home', function () {
-    return view('home');
-});
-
-Route::redirect('/home', '/?valk=');
+Route::get('/home', [websiteController::class,"useController"]);
